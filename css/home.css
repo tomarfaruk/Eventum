@@ -1,0 +1,538 @@
+.bar-icon{
+  cursor: pointer;
+ display: none;
+}
+.bar-icon i{ 
+  font-size: 25px;
+  color: white;
+}
+
+.site-header{
+  padding-top: 55px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header-navbar{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.navbar{ 
+  flex-grow: 1;
+}
+.nav-list{
+  text-align: right;
+}
+.navbar .list-item{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 0;
+}
+.navbar .list-item-link{
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 12px;
+  line-height: 12px;
+  color: white;
+}
+.list-item-link:hover{
+  background-color: aliceblue;
+  color: black;
+}
+.btn-nav{
+  margin-left: 25px;
+}
+.btn-navbar{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffcc00;
+  
+}
+
+
+/* hero section  */
+
+.site-hero{
+  position: relative;
+  background: url('img/background-1.png');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 300px 0 245px;
+}
+.coundown{
+  display: flex;
+}
+.coundown-time-text:not(:first-child){
+  margin-left: 50px;
+}
+.coundown-time{
+  font-size: 62px;
+  font-weight: bold;
+  display: block;
+  line-height: 1.2;
+}
+.coundown-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.site-title{
+  margin-top: 20px;
+  font-size: 62px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.site-sub-title{
+  font-size: 24px;;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#day {
+  color: #fff200; }
+
+#hour {
+  color: #f26522; }
+
+#minute {
+  color: #00b9ff; }
+
+#second {
+  color: #8dc63f; }
+
+/* workkshop area  */
+
+
+.section-title{
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.section-sub-title{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.workshop{
+  background-color: white;
+  padding: 90px 0;
+}
+.workshop .section-title{
+  color: #ed145b;
+  text-align: left;
+}
+
+.paragraph{
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.btns{
+  margin-top: 55px;
+}
+.btns .btn:not(:first-child){
+  margin-left: 8px;
+}
+.btn-buy{
+  background-color: #ed145b;
+}
+.btn-buy, .btn-vanue{
+  line-height: 32px;
+  color: white;
+}
+.btn-vanue{
+
+  background-color: #8dc63f;
+}
+
+/* event section */
+
+.events{
+  background-image: url('img/background-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f8f8f8;
+  padding: 100px 0;
+}
+.events .section-title{
+  padding-bottom: 40px;
+}
+.event-date .date{
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+}
+.event-date .year{
+  font-size: 18px;
+}
+.event-time{
+  font-size: 16px;
+  color: #ed145b;
+}
+.event-title{
+  font-size: 18px;
+  line-height: 1.5;
+}
+.event-speaker{
+  font-size: 14px;
+}
+.event-time, .event-speaker, .event-time{
+  font-weight: 500;
+}
+.event-schedule:not(:first-child) {
+  margin-top: 20px;
+}
+.event-schedule:first-child .date{
+  color: #ed145b;
+}
+.event-schedule:nth-child(2) .date{
+  color: #92278f;
+}
+.event-schedule:last-child .date{
+  color: #f26522;
+}
+
+
+/* speakine section */
+
+.speaking{
+  background-color: white;
+  padding: 70px 0 75px;
+}
+.speaking .section-title{
+  margin-bottom: 50px;
+}
+.single-speaker{
+  background-color: #f8f8f8;
+  padding: 15px;
+  display: flex;
+}
+.singer-img{
+  margin: 15px;
+  display: block;
+}
+.speaker-content{
+  margin: auto 0;
+  margin-left: 15px;
+}
+.speaker-header .speaker-name{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.speaker-header .speaker-title{
+  font-size: 14px;
+  color: #ed145b;
+}
+.speaker-about{
+  margin-top: 20px;
+  font-size: 14px;
+}
+.speaker-social-icons{
+  margin-top: 15px;
+}
+.speaker-social-icons i:first-child{
+  margin-left: -20px;
+}
+.speaker-social-icons i{
+  color: #ed145b;
+  padding: 0 20px;
+}
+
+/* buy tickets section */
+
+.buy-tickets{
+  background-color: #f8f8f8;
+  padding: 80px 0 100px;
+}
+.buy-tickets .section-title{
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 40px;
+}
+.single-ticket{
+  text-align: center;
+}
+.ticket-type{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ticket-price{
+  font-size: 72px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+}
+.ticket-list-item{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 7px 0;
+}
+.buy-tickets .btns{
+  margin-top: 25px;
+}
+.buy-tickets .buy-ticket{
+  line-height: 24px;
+  background-color: #00b9ff;
+  font-weight: bold;
+}
+.single-ticket{
+  padding: 65px 80px 70px;
+}
+.single-ticket.second{
+  background-color: #92278f;
+  color: white;
+}
+.single-ticket.second .buy-ticket{
+  background-color: white;
+}
+.single-ticket.third .buy-ticket{
+  background-color: #ed145b;
+  color: white;
+}
+.single-ticket.third .ticket-price{
+  color: #ed145b;
+}
+.single-ticket.first .ticket-price{
+  color: #00b9ff;
+}
+.single-ticket.first .buy-ticket{
+  color: #fff;
+}
+
+
+
+/* opportunities section */
+
+.opportunities {
+  background: white;
+  padding: 65px 0 80px;
+}
+.opportunities .section-title{
+  font-weight: 900 ;
+  margin-bottom: 50px ;
+}
+
+.single-offer{
+  text-align: center;
+}
+.single-offer img{
+  max-height: 100%;
+}
+.offer-img{
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.offer-title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.about-offer{
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+
+/* call-to-action section */
+.call-to-action{
+  padding: 85px 0;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.call-to-action .section-title{
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+.call-to-action .paragraph{
+  font-weight: 300;
+  font-size: 16px;
+}
+.call-to-action .btns{
+  margin-top: 50px;
+}
+.book-ticket{
+  background-color: #ed145b;
+  line-height: 34px;
+  padding: 7px 20px;
+  color: white;
+}
+
+
+/* sponser section */
+
+.sponser{
+  padding: 75px 0 55px; 
+}
+.sponser .section-sub-title, .get-touch{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 5px;
+}
+.sponser-container{
+  margin-top: 15px;
+}
+.get-touch{
+  color: #8dc63f;
+}
+.sponser-img{
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+/* map sectipn */
+.map-section{
+  font-size: 0;
+}
+
+/* sign-up section */
+
+.sign-up{  
+  background-image: url("img/background-5.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 65px 0 80px;
+}
+.sign-up .content{
+  text-align: center;
+  color: white;
+}
+.sign-up .section-title{
+  font-size: 24;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.sign-up .sub-title{
+  margin-top: 10px;
+  font-weight: 100;
+  color: white;
+}
+.sign-up-form{
+  margin-top: 40px;
+}
+.email-input{
+  padding: 7px 20px;
+  width: 47%;
+  line-height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+.email-input::placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;  
+}
+.btn-subscribe{
+  background-color: #cbd504;
+  line-height: 30px;
+  padding: 7px 30px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+/* footer section */
+
+
+.footer-section{
+  color: white;
+  margin-top: -1px;
+  background-color: #343d47;
+}
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-section p{
+font-size: 14px;
+}
+.footer-section .btn-mail {
+margin-top: 10px;
+border: 2px solid white;
+color: white;
+padding: 7px 14px;
+}
+.icon-twiteer i {
+color: blue;
+font-size: 14px;
+padding-right: 5px;
+}
+.icon-twiteer a{
+  color: white;
+}
+
+.footer-foot {
+text-align: center;
+border-top: 1px solid #2e2f33;
+/* line-height: 60px; */
+padding: 20px 0;
+font-size: 15px;
+}
+.footer-foot p{
+line-height: 1.6;
+color: #cbccce;
+font-size: 14px;
+}
+
+.footer-section .icons li:first-child a{
+  padding-left: 0;
+}
+.footer-section .icons li a{
+font-size: 18px;
+padding: 10px 12px;
+color: white;
+}
+.footer-section .icons li{
+list-style: none;
+/* margin: -5px; */
+}
+.footer-section .icons {
+display: flex;
+flex-wrap: wrap;
+margin-top: 7px;
+}
+
+.footer-section .links{
+/* display: flex;
+flex-wrap: wrap; */
+
+}
+.footer-section .links li{
+/* flex-basis: 50%; */
+list-style: none;
+display: inline-block;
+width: 48%;
+}
+.footer-section .links a{
+font-size: 14px;
+color: white;
+padding: 5px 0;
+display: block;
+}
+.footer-section .row{
+padding: 60px 100px;
+}
+
